@@ -1,0 +1,140 @@
+[
+  {
+    "key": "host_name",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Hostname/IP",
+      "placeholder": "10.1.1.1",
+      "description": "IP or Hostname of Server",
+      "required": true
+    }
+  },
+  {
+    "key": "port",
+    "type": "input",
+    "defaultValue": "22501",
+    "templateOptions": {
+      "label": "Port",
+      "placeholder": "22501",
+      "required": true
+    }
+  },
+  {
+    "key": "enableVPN",
+    "type": "checkbox",
+    "defaultValue": false,
+    "templateOptions": {
+      "label": "Enable VPN",
+      "required": true
+    }
+  },
+  {
+    "key": "vpnOpenPath",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Open VPN Path",
+      "placeholder": "C:\\Tools4ever\\Scripts\\connectSkywardVPN.bat",
+      "required": false
+    }
+  },
+  {
+    "key": "vpnClosePath",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Hostname/IP",
+      "placeholder": "C:\\Tools4ever\\Scripts\\disconnectSkywardVPN.bat",
+      "required": false
+    }
+  },
+  {
+    "key": "database",
+    "type": "input",
+    "defaultValue": "SKYWARD",
+    "templateOptions": {
+      "label": "Database",
+      "placeholder": "SKYWARD",
+      "required": true
+    }
+  },
+  {
+    "key": "user",
+    "type": "input",
+    "defaultValue": "SKYDBUSER",
+    "templateOptions": {
+      "label": "Username",
+      "placeholder": "SKYDBUSER",
+      "required": true
+    }
+  },
+  {
+    "key": "password",
+    "type": "input",
+    "defaultValue": "SKYDBPASS",
+    "templateOptions": {
+      "label": "Password",
+      "type": "password",
+      "required": true
+    }
+  },
+  {
+    "key": "driver_version",
+    "type": "input",
+    "defaultValue": "11.7",
+    "templateOptions": {
+      "label": "Driver Version",
+      "placeholder": "11.7",
+      "description": "Version of Progress OpenEdge Driver",
+      "required": true
+    }
+  },
+  {
+    "key": "isolation_mode",
+    "type": "input",
+    "defaultValue": "READ UNCOMMITED",
+    "templateOptions": {
+      "label": "Isolation Mode",
+      "placeholder": "READ UNCOMMITED",
+      "required": true
+    }
+  },
+  {
+    "key": "array_size",
+    "type": "input",
+    "defaultValue": "50",
+    "templateOptions": {
+      "label": "Array Size",
+      "placeholder": "50",
+      "required": true
+    }
+  },
+  {
+    "key": "enableETWT",
+    "type": "checkbox",
+    "defaultValue": true,
+    "templateOptions": {
+      "label": "Enable ETWT",
+      "required": true
+    }
+  },
+  {
+    "key": "enableUWCT",
+    "type": "checkbox",
+    "defaultValue": false,
+    "templateOptions": {
+      "label": "Enable UWCT",
+      "required": true
+    }
+  },
+  {
+    "key": "enableKA",
+    "type": "checkbox",
+    "defaultValue": false,
+    "templateOptions": {
+      "label": "Enable KA",
+      "required": true
+    }
+  }
+]

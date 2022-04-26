@@ -93,10 +93,10 @@
   {
     "key": "isolation_mode",
     "type": "input",
-    "defaultValue": "READ UNCOMMITED",
+    "defaultValue": "READ UNCOMMITTED",
     "templateOptions": {
       "label": "Isolation Mode",
-      "placeholder": "READ UNCOMMITED",
+      "placeholder": "READ UNCOMMITTED",
       "required": true
     }
   },

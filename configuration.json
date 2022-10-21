@@ -44,7 +44,7 @@
     "type": "input",
     "defaultValue": "",
     "templateOptions": {
-      "label": "Hostname/IP",
+      "label": "Close VPN Path",
       "placeholder": "C:\\Tools4ever\\Scripts\\disconnectSkywardVPN.bat",
       "required": false
     }
